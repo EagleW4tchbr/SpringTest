@@ -1,0 +1,10 @@
+services:
+  - name: spring-boot-app
+    type: web
+    runtime: docker
+    repo: https://github.com/YOUR_USERNAME/YOUR_REPO
+    envVars:
+      - key: PORT
+        value: 8080
+    plan: free
+    region: oregon
